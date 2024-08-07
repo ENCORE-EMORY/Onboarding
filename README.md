@@ -45,3 +45,48 @@ Job scheduling is handled by the SLURM job scheduler, which is an application th
 
 - *[Introduction to Jupyter Notebooks](https://programminghistorian.org/en/lessons/jupyter-notebooks)*
 - *[Jupyter Kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)*
+
+
+
+# Share Folder for ENOCRE member
+
+### 1- How to map ENCORE shared folder?
+
+- **MacOS**
+  - Ensure you are connected to Emory Internet or Emory VPN.
+  - Go to **Finder**, click on **Go**, and select **Connect to Server**.
+  - Type the following: `smb://nasn2acts.cc.emory.edu/rsphprojects-ts`. You may be prompted to log in with your Emory NetID and password for the first time. The `ENCORE` folder will then appear under the `R` drive.
+  - Navigate to `~/ENCORE/ENCORE Lab` to find shared resources.
+
+- **Windows**
+  - Ensure you are connected to Emory Internet or Emory VPN.
+  - Open **File Explorer** and select **This PC**.
+  - Click on **Map Network Drive**.
+  - Type the following: `\\nasn2acts.cc.emory.edu\rsphprojects-ts`. You may be prompted to log in with your Emory NetID and password for the first time. The `ENCORE` folder will then appear under the `R` drive.
+  - Navigate to `~/ENCORE/ENCORE Lab` to find shared resources.
+
+**Notice**: Connection to the RSPH drive may be lost after disconnecting from Emory Internet or VPN. Adding the drive address to your list of personal servers will make it easier to reconnect.
+
+- Emory Device
+  -  The `ENCORE` folder will automatically appear in the `R` drive on any Emory computer after you log in with your Emory credentials.
+
+
+### 2- Current ENCORE folder structure
+
+ENCORE 
+└── ENCORE lab 
+    ├── Events
+    ├── Lab meetings
+        ├── Presentation slides
+        ├── Recording
+    └── Resources
+        ├── 00 ENCORE info
+        ├── 01 Onboarding
+        ├── 02 HPC instruction
+        ├── 03 Templates
+        └── 04 Academic writing
+
+
+
+
+
