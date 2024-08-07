@@ -73,18 +73,18 @@ Job scheduling is handled by the SLURM job scheduler, which is an application th
 
 ### 2- Current ENCORE folder structure
 
-ENCORE 
-└── ENCORE lab 
-    ├── Events
-    ├── Lab meetings
-        ├── Presentation slides
-        ├── Recording
-    └── Resources
-        ├── 00 ENCORE info
-        ├── 01 Onboarding
-        ├── 02 HPC instruction
-        ├── 03 Templates
-        └── 04 Academic writing
+ENCORE   
+└── ENCORE lab   
+    ├── Events  
+    ├── Lab meetings  
+        ├── Presentation slides  
+        ├── Recording  
+    └── Resources  
+        ├── 00 ENCORE info  
+        ├── 01 Onboarding  
+        ├── 02 HPC instruction  
+        ├── 03 Templates  
+        └── 04 Academic writing  
 
 
 
