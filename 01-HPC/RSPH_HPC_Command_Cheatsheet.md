@@ -3,11 +3,24 @@
 title: "RSPH HPC Command Cheatsheet"
 author: "Weiwei Wu"
 date: "AUG 2024"
-output: 
-    html_document:
-      toc: true
-      toc_depth: 5
 ---
+
+- [1- Login](#1--login)
+- [2- Cluster Information](#2--cluster-information)
+- [3- Transferring Files](#3--transferring-files)
+- [4- Linux Commands](#4--linux-commands)
+- [5- Modules](#5--modules)
+- [6- Submitting Jobs](#6--submitting-jobs)
+- [7- Shell Example](#7--shell-example)
+    - [1) Standard Serial Job](#1-standard-serial-job)
+    - [2) Job Arrays](#2-job-arrays)
+    - [3) GPU Job](#3-gpu-job)
+- [8- Running R using Jupyter Notebook](#8--running-r-using-jupyter-notebook)
+- [9- Running Interactive Session on Compute Node](#9--running-interactive-session-on-compute-node)
+
+
+
+
 
 <br>
 !! Notice: This is not an HPC tutorial. For detailed HPC instructions, please refer to the [BIOS at RSPH – HPC Documentation](https://scholarblogs.emory.edu/rsph-hpc/)  
