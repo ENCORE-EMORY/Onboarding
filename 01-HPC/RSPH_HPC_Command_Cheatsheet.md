@@ -1,9 +1,8 @@
 
----
-title: "RSPH HPC Command Cheatsheet"
-author: "Weiwei Wu"
-date: "AUG 2024"
----
+
+# RSPH HPC Command Cheatsheet
+Weiwei Wu (weiwei.wu@emory.edu)   
+AUG 2024
 
 - [1- Login](#1--login)
 - [2- Cluster Information](#2--cluster-information)
