@@ -67,9 +67,10 @@ Job scheduling is handled by the SLURM job scheduler, which is an application th
 
 **Notice**: Connection to the RSPH drive may be lost after disconnecting from Emory Internet or VPN. Adding the drive address to your list of personal servers will make it easier to reconnect.
 
-- Emory Device
+- **Emory Device**
   -  The `ENCORE` folder will automatically appear in the `R` drive on any Emory computer after you log in with your Emory credentials.
-
+  
+Contact Weiwei (weiwei.wu@emory.edu) if you cannot find the `ENCORE` folder under the `R` drive after mapping.  
 
 ### 2- Current ENCORE folder structure
 <pre>
