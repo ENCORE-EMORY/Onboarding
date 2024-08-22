@@ -69,8 +69,8 @@ In addition to the hardware, the system runs the CentOS Linux operating system (
 
 Job scheduling is handled by the SLURM job scheduler, an application that currently runs on most of the Top 500 supercomputing sites in the world.
 
-- In this `Onboarding` repository, you can find [links for RSPH HPC tutorials](01-HPC/RSPH_HPC_Command_Cheatsheet.md) and [HPC Command Cheatsheet](01-HPC/RSPH_HPC_Command_Cheatsheet.md) under folder `01-HPC`.   
-
+- In this `Onboarding` repository, you can find [links for RSPH HPC tutorials](01-HPC/RSPH_HPC_Instruction.md) and [HPC Command Cheatsheet](01-HPC/RSPH_HPC_Command_Cheatsheet.md) under folder `01-HPC`.   
+  
 <br />
 <br />
   
