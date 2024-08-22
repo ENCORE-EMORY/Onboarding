@@ -2,9 +2,16 @@
 Here is the training resource for new ENOCRE lab members
 
 - [I. Share Folder for ENOCRE member](#i-share-folder-for-enocre-member)
+  - [1- How to map ENCORE shared folder](#1--how-to-map-encore-shared-folder)
+  - [2- Current ENCORE folder structure](#2--current-encore-folder-structure)
 - [II. High Performance and Cloud Computing Cluster](#ii-high-performance-and-cloud-computing-cluster)
 - [III. Scientific Writing and Presentations](#iii-scientific-writing-and-presentations)
 - [IV. Research Resource](#iv-research-resource)
+  - [Bioinformatics](#bioinformatics)
+  - [Linux](#linux)
+  - [Python](#python)
+  - [R](#r)
+  - [Jupyter Notebook](#jupyter-notebook-recommended-for-programing-with-python)
   
 <br />
 <br />
@@ -49,7 +56,8 @@ ENCORE
         └── 04 Academic writing
 </pre>
 
-  
+<br />
+<br />
 
 # II. High Performance and Cloud Computing Cluster
 
@@ -63,11 +71,16 @@ Job scheduling is handled by the SLURM job scheduler, an application that curren
 
 - In this `Onboarding` repository, you can find [links for RSPH HPC tutorials](01-HPC/RSPH_HPC_Command_Cheatsheet.md) and [HPC Command Cheatsheet](01-HPC/RSPH_HPC_Command_Cheatsheet.md) under folder `01-HPC`.   
 
-
+<br />
+<br />
   
 # III. Scientific Writing and Presentations
-  
 
+- ***Reporting Statistical Results 2022-04-01.pdf*** by Patrick D. Kilgo and Lisa K. Elon, BIOS, RSPH  
+  Located at `ENCORE/ENCORE lab/Resources/04 Academic writing` in ENCORE shared OneDrive folder  
+
+<br />
+<br />
 
 # IV. Research Resource
 
@@ -89,16 +102,21 @@ Job scheduling is handled by the SLURM job scheduler, an application that curren
 
 ## R
 
+- *[Manual for R - An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)*
 - *[R/Rstudio Tutorial Essential Videos](https://resources.rstudio.com/)*
 
-## Coursera Python Courses
+## Python
 
-- *[Programming for Everybody (Getting Started with Python)](https://www.coursera.org/learn/python)*
-- *[Applied Data Science with Python](https://www.coursera.org/specializations/data-science-python#courses)*
+- *[Python Tutorial](https://docs.python.org/3/tutorial/)*
+- Coursera Python Courses: *[Programming for Everybody (Getting Started with Python)](https://www.coursera.org/learn/python)*
+- Coursera Python Courses: *[Applied Data Science with Python](https://www.coursera.org/specializations/data-science-python#courses)*
 
 ## Jupyter Notebook (Recommended for Programing with Python)
 
 - *[Introduction to Jupyter Notebooks](https://programminghistorian.org/en/lessons/jupyter-notebooks)*
 - *[Jupyter Kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)*
+
+<br />
+<br />
 
 
