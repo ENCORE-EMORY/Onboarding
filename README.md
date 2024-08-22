@@ -1,10 +1,10 @@
 # Onboarding
 Here is the training resource for new ENOCRE lab members
 
-- [I. Share Folder for ENOCRE member](#I.-Share-Folder-for-ENOCRE-member)
-- [II. High Performance and Cloud Computing Cluster](#II.-High-Performance-and-Cloud-Computing-Cluster)
-- [III. Scientific Writing and Presentations](#III.-Scientific-Writing-and-Presentations)
-- [IV. Research Resource](#IV.-Research-Resource)
+- [I. Share Folder for ENOCRE member](#i-share-folder-for-enocre-member)
+- [II. High Performance and Cloud Computing Cluster](#ii-high-performance-and-cloud-computing-cluster)
+- [III. Scientific Writing and Presentations](#iii-scientific-writing-and-presentations)
+- [IV. Research Resource](#iv-research-resource)
   
 <br />
 <br />
