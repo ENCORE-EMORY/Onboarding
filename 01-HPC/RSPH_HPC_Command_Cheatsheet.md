@@ -141,7 +141,7 @@ Request for 1 node, 4 cores, 4Gb memory (1G per core), 1 hour run time on the pa
 #SBATCH --partition=preemptable,week-long-cpu
 #SBATCH --output=job_%J.out
 #SBATCH --error=job_%J.err
-#SBATCH –-mail-user=<YOUR_EMAIL_ADDRESS@emory.edu>s
+#SBATCH –-mail-user=<YOUR_EMAIL_ADDRESS@emory.edu>
 #SBATCH –-mail-type=<NONE, BEGIN, END, FAIL, REQUEUE> 
 
 R_SCRIPT_DIR="/projects/compbio/users/<your_NetID/your_project/scripts>"
@@ -168,7 +168,7 @@ cd $R_SCRIPT_DIR
 #SBATCH --array=1-1000
 #SBATCH --output=job_%A_%a.out
 #SBATCH --error=job_%A_%a.err
-#SBATCH –-mail-user=<YOUR_EMAIL_ADDRESS@emory.edu>s
+#SBATCH –-mail-user=<YOUR_EMAIL_ADDRESS@emory.edu>
 #SBATCH –-mail-type=<NONE, BEGIN, END, FAIL, REQUEUE, ALL> 
 
 echo "I am job $SLURM_JOBID running on nodes $SLURM_JOB_NODELIST"
@@ -192,7 +192,7 @@ echo "Completed job on node $HOSTNAME“
 #SBATCH --partition=<name_of_GPU_partition>
 #SBATCH --output=%x_%j.out
 #SBATCH --error==%x_%j.err
-#SBATCH –-mail-user=<YOUR_EMAIL_ADDRESS@emory.edu>s
+#SBATCH –-mail-user=<YOUR_EMAIL_ADDRESS@emory.edu>
 #SBATCH –-mail-type=<NONE, BEGIN, END, FAIL, REQUEUE, ALL> 
 
 #SBATCH –-nodes=1             # Number of nodes
