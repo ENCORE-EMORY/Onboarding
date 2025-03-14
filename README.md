@@ -5,6 +5,7 @@ Here is the training resource for new ENOCRE lab members
   - [1- How to map ENCORE shared folder](#1--how-to-map-encore-shared-folder)
   - [2- Current ENCORE folder structure](#2--current-encore-folder-structure)
 - [II. High Performance and Cloud Computing Cluster](#ii-high-performance-and-cloud-computing-cluster)
+  - [HPC Command Cheatsheet](01-HPC/RSPH_HPC_Command_Cheatsheet.md)  
 - [III. Scientific Writing and Presentations](#iii-scientific-writing-and-presentations)
 - [IV. Research Resource](#iv-research-resource)
   - [Bioinformatics](#bioinformatics)
