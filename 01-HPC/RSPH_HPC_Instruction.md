@@ -8,7 +8,8 @@
 
 # HPC Documentation
 
+- [BIOS HPC Documentation](https://scholarblogs.emory.edu/rsph-hpc/getting-started/)
+  
 - [RSPH Official Documentation](https://github.com/RSPH-HPC/Documentation/blob/master/HPC%20Getting%20Started%20Guide%20V.2.0.pdf)
 
-- [BIOS HPC Documentation](https://scholarblogs.emory.edu/rsph-hpc/getting-started/)
 
