@@ -1,12 +1,14 @@
 # Onboarding
 Here is the training resource for new ENOCRE lab members
 
-- [I. Share Folder for ENOCRE member](#i-share-folder-for-enocre-member)
-  - [1- How to map ENCORE shared folder](#1--how-to-map-encore-shared-folder)
-  - [2- Current ENCORE folder structure](#2--current-encore-folder-structure)
-- [II. High Performance and Cloud Computing Cluster](#ii-high-performance-and-cloud-computing-cluster)
+- [I. High Performance and Cloud Computing Cluster](#i-high-performance-and-cloud-computing-cluster)
+  - [1- RSPH HPC](#1--rsph-hpc)
+  - [2- Access RSPH HPC and ENCORE Folder](#2--how-to-access-the-rsph-hpc-and-encore-folder)
   - [Links for RSPH HPC tutorials](01-HPC/RSPH_HPC_Instruction.md)
   - [HPC Command Cheatsheet](01-HPC/RSPH_HPC_Command_Cheatsheet.md)
+- [II. Share Folder for ENOCRE member](#ii-share-folder-for-enocre-member-optional)
+  - [1- How to map ENCORE shared folder](#1--how-to-map-encore-shared-folder)
+  - [2- Current ENCORE folder structure](#2--current-encore-folder-structure)
 - [III. Scientific Writing and Presentations](#iii-scientific-writing-and-presentations)
 - [IV. Research Resource](#iv-research-resource)
   - [Bioinformatics](#bioinformatics)
@@ -17,8 +19,45 @@ Here is the training resource for new ENOCRE lab members
   
 <br />
 <br />
-  
-# I. Share Folder for ENOCRE member
+
+# I. High Performance and Cloud Computing Cluster
+
+### 1- RSPH HPC
+RSPH-HPC *[Toturial to RSPH-HPC](https://scholarblogs.emory.edu/rsph-hpc/)*
+
+The RSPH HPC cluster is a system that consists of 25 compute nodes, 24 of which have 32 compute cores and 192GB of RAM each. The last node is a “large memory node” with 1.5 TB of RAM. These systems are connected together via 25GB Ethernet network, and all have access to a shared 1 Petabyte Panasas parallel file system.
+
+In addition to the hardware, the system runs the CentOS Linux operating system (currently version 8), which is a “white-box” implementation of the Red Hat Enterprise Linux OS that purports to be 100% binary compatible with the commercial version.
+
+Job scheduling is handled by the SLURM job scheduler, an application that currently runs on most of the Top 500 supercomputing sites in the world.
+
+
+- In this `Onboarding` repository, you can find
+  - [links for RSPH HPC tutorials](01-HPC/RSPH_HPC_Instruction.md) and
+  - [HPC Command Cheatsheet](01-HPC/RSPH_HPC_Command_Cheatsheet.md) under the folder `01-HPC`.   
+
+<br />
+
+### 2 – How to Access the RSPH HPC and ENCORE Folder
+
+1. Contact your PI/advisor **and** Ximing (ximing.ran@emory.edu), then wait for approval from the IT department.  
+2. Follow the instructions above in the ENCORE GitHub to set up your HPC environment.  
+
+**Notice:** Please be mindful of the storage limitations within the ENCORE folder:
+
+| User                     | Storage Limitation |
+|--------------------------|--------------------|
+| Undergraduate and Master | 1 TB               |
+| PhD and other            | 5 TB               |
+
+If you require additional storage, contact your PI/advisor.
+
+
+<br />
+<br />
+
+
+# II. Share Folder for ENOCRE member (OPTIONAL)
 
 ### 1- How to map ENCORE shared folder?
 
@@ -61,20 +100,7 @@ ENCORE
 <br />
 <br />
 
-# II. High Performance and Cloud Computing Cluster
 
-RSPH-HPC *[Toturial to RSPH-HPC](https://scholarblogs.emory.edu/rsph-hpc/)*
-
-The RSPH HPC cluster is a system that consists of 25 compute nodes, 24 of which have 32 compute cores and 192GB of RAM each. The last node is a “large memory node” with 1.5 TB of RAM. These systems are connected together via 25GB Ethernet network, and all have access to a shared 1 Petabyte Panasas parallel file system.
-
-In addition to the hardware, the system runs the CentOS Linux operating system (currently version 8), which is a “white-box” implementation of the Red Hat Enterprise Linux OS that purports to be 100% binary compatible with the commercial version.
-
-Job scheduling is handled by the SLURM job scheduler, an application that currently runs on most of the Top 500 supercomputing sites in the world.
-
-- In this `Onboarding` repository, you can find [links for RSPH HPC tutorials](01-HPC/RSPH_HPC_Instruction.md) and [HPC Command Cheatsheet](01-HPC/RSPH_HPC_Command_Cheatsheet.md) under folder `01-HPC`.   
-  
-<br />
-<br />
   
 # III. Scientific Writing and Presentations
 
