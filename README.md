@@ -14,10 +14,8 @@ Here is the training resource for new ENOCRE lab members
 - [III. Scientific Writing and Presentations](#iii-scientific-writing-and-presentations)
 - [IV. Research Resource](#iv-research-resource)
   - [Bioinformatics](#bioinformatics)
-  - [Linux](#linux)
-  - [Python](#python)
-  - [R](#r)
-  - [Jupyter Notebook](#jupyter-notebook-recommended-for-programing-with-python)
+  - [Linux](#linux) [Python](#python) [R](#r) [Jupyter Notebook](#jupyter-notebook-recommended-for-programing-with-python)
+ 
   
 <br />
 <br />
