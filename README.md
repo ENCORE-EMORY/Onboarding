@@ -43,8 +43,8 @@ Job scheduling is handled by the SLURM job scheduler, an application that curren
 
 #### 1.2 Environment Setup and Job Submission
 1) Conda Environment Setup: [Conda documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) a useful reference if you are not familiar with Conda environments.
-  - Make sure Jupyter has been installed in your new Conda environment using `conda install jupyter` before interactive coding
-  - For additional package installation, I suggest using Mamba in addition to `conda install`, which works well for resolving dependencies quickly
+    - Make sure Jupyter has been installed in your new Conda environment using `conda install jupyter` before interactive coding
+    - For additional package installation, I suggest using Mamba in addition to `conda install`, which works well for resolving dependencies quickly
 2) Submitting jobs: See [BIOS HPC Documentation - Applications](https://scholarblogs.emory.edu/rsph-hpc/74-2/)
 
 <br />
