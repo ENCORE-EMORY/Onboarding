@@ -3,10 +3,12 @@ Here is the training resource for new ENOCRE lab members
 
 - [I. High Performance and Cloud Computing Cluster](#i-high-performance-and-cloud-computing-cluster)
   - [1- RSPH HPC](#1--rsph-hpc)
+    - [1.1- Get Started with RSPH HPC](#11-get-started-with-rsph-hpc)
+    - [1.2- Environment Setup and Job Submission](#12-environment-setup-and-job-submission)
+    - [Link for HPC Command Cheatsheet](01-HPC/RSPH_HPC_Command_Cheatsheet.md)
   - [2- Access RSPH HPC and ENCORE Folder](#2--how-to-access-the-rsph-hpc-and-encore-folder)
-  - [Links for RSPH HPC tutorials](01-HPC/RSPH_HPC_Instruction.md)
-  - [HPC Command Cheatsheet](01-HPC/RSPH_HPC_Command_Cheatsheet.md)
-- [II. Share Folder for ENOCRE member](#ii-share-folder-for-enocre-member-optional)
+
+- [II. Share Folder for ENOCRE member](#ii-share-folder-for-enocre-member-optional) (optional)
   - [1- How to map ENCORE shared folder](#1--how-to-map-encore-shared-folder)
   - [2- Current ENCORE folder structure](#2--current-encore-folder-structure)
 - [III. Scientific Writing and Presentations](#iii-scientific-writing-and-presentations)
@@ -23,7 +25,7 @@ Here is the training resource for new ENOCRE lab members
 # I. High Performance and Cloud Computing Cluster
 
 ### 1- RSPH HPC
-RSPH-HPC *[Toturial to RSPH-HPC](https://scholarblogs.emory.edu/rsph-hpc/)*
+*[Official RSPH-HPC Documentation](https://scholarblogs.emory.edu/rsph-hpc/)*
 
 The RSPH HPC cluster is a system that consists of 25 compute nodes, 24 of which have 32 compute cores and 192GB of RAM each. The last node is a “large memory node” with 1.5 TB of RAM. These systems are connected together via 25GB Ethernet network, and all have access to a shared 1 Petabyte Panasas parallel file system.
 
@@ -32,9 +34,20 @@ In addition to the hardware, the system runs the CentOS Linux operating system (
 Job scheduling is handled by the SLURM job scheduler, an application that currently runs on most of the Top 500 supercomputing sites in the world.
 
 
-- In this `Onboarding` repository, you can find
-  - [links for RSPH HPC tutorials](01-HPC/RSPH_HPC_Instruction.md) and
-  - [HPC Command Cheatsheet](01-HPC/RSPH_HPC_Command_Cheatsheet.md) under the folder `01-HPC`.   
+#### 1.1 Get Started with RSPH HPC
+1) HPC documentation [link](https://scholarblogs.emory.edu/rsph-hpc/getting-started/) from the BIOS department. This guide is more hands-on than the one initially shared in the HPC welcome email
+2) BIOS Introduction Session on RSPH HPC: [slides](https://scholarblogs.emory.edu/rsph-hpc/files/2020/11/2020-11-20-BIOS-HPC-Workshop.pdf) [recording](https://rsph.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a9e7a90f-055c-4753-9e51-ac7a003b9d58)
+3) Interactive R Coding with Jupyter Notebook: [tutorial](https://github.com/Environment-and-Seniors-Health-Emory/Getting_started/blob/main/HPC_cluster_GUI_Jupyter_Guide.md) by Dr. Liuhua Shi from the EH department
+4) Unix command line: Dr. David Benkeser’s [DATA/INTRO 550 course](https://benkeser.github.io/info550/lectures/) provides a detailed lecture on using the Unix command line [slides](https://benkeser.github.io/info550/lectures/03_commandline/commandline.html#1) [recording](https://benkeser.github.io/info550/recordings/unix-command-line)
+5) \***HPC Cheat Sheet** in this ENCORE GitHub [HPC Command Cheatsheet](01-HPC/RSPH_HPC_Command_Cheatsheet.md) with some template codes that might be helpful if you are new to the SLURM job scheduler
+6) SCP Clients for File Transfer: [FileZilla](https://filezilla-project.org/) works well on both Windows and macOS. Some people prefer [Cyberduck](https://cyberduck.io/) for macOS   
+7) \***Folder Setup**: It’s best to create your own folder named with your NetID under either `/projects/compbio/users/` (ENCORE) or another PI's folder instead of using your home directory, since the home directory has a 25 GB quota limitation. You can see storage limits for the ENCORE folder below
+
+#### 1.2 Environment Setup and Job Submission
+1) Conda Environment Setup: [Conda documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) a useful reference if you are not familiar with Conda environments.
+  - Make sure Jupyter has been installed in your new Conda environment using `conda install jupyter` before interactive coding
+  - For additional package installation, I suggest using Mamba in addition to `conda install`, which works well for resolving dependencies quickly
+2) Submitting jobs: See [BIOS HPC Documentation - Applications](https://scholarblogs.emory.edu/rsph-hpc/74-2/)
 
 <br />
 
