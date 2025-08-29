@@ -1,5 +1,5 @@
 # Onboarding
-Here is the training resource for new ENOCRE lab members
+Training resource for new ENOCRE lab members
 
 - [I. High Performance and Cloud Computing Cluster](#i-high-performance-and-cloud-computing-cluster)
   - [1- RSPH HPC](#1--rsph-hpc)
